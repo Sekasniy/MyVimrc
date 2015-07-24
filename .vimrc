@@ -18,8 +18,7 @@ call vim_lib#sys#Autoload#init('~/.vim', 'bundle') " Адрес до вашег�
 Plugin 'vim_lib'
 Plugin 'vim_plugmanager'
 Plugin 'vim_prj'
-Plugin 'vim-fugitive'
-Plugin 'vim_git', {
+mlugin 'vim_git', {
       \  'map': {
       \    'status':      '<Leader>gs', 
       \    'log':         '<Leader>gl', 
@@ -50,9 +49,8 @@ endw
 
 set timeout ttimeoutlen=50
 
+"----------------------------------------------------"
 
 map q :q<CR>
 map s :w<CR>
 map <Leader>rv :so $MYVIMRC<CR>
-
-"testtesttest"
