@@ -54,3 +54,5 @@ set timeout ttimeoutlen=50
 map q :q<CR>
 map s :w<CR>
 map <Leader>rv :so $MYVIMRC<CR>
+
+"testtesttest"
